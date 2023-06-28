@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="top">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">lamadmin</span>
+          <span className="logo">System Admin</span>
         </Link>
       </div>
       <hr />
@@ -84,6 +84,7 @@ const Sidebar = () => {
             <ExitToAppIcon className="icon" />
             <span>Logout</span>
           </li>
+          <p className="title">THEME</p>
         </ul>
       </div>
       <div className="bottom">
